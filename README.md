@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Zsh Customization</h1>
 
-<p align="center"><img src="https://socialify.git.ci/suman2280/Zsh-config/image?description=1&amp;descriptionEditable=Zsh%20configuration%20file%20containing%20a%20quick%20customization%20for%20Zsh&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/suman2280/Zsh-config/image?description=1&descriptionEditable=Zsh%20configuration%20file%20containing%20a%20quick%20customization%20of%20Zsh&font=Rokkitt&language=1&name=1&owner=1&pattern=Solid&theme=Dark"></p>
 
   
   
