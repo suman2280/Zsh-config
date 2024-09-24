@@ -1,0 +1,39 @@
+<h1 align="center" id="title">Zsh Customization</h1>
+
+<p align="center"><img src="https://socialify.git.ci/suman2280/Zsh-config/image?description=1&amp;descriptionEditable=Zsh%20configuration%20file%20containing%20a%20quick%20customization%20for%20Zsh&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Auto" alt="project-image"></p>
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Command auto-suggestion
+*   Command auto-completion
+*   Historical search through commands
+*   Fuzzy finding commands
+*   Directory item preview while using cd
+*   Fuzzy finding directories while using cd
+*   Syntax highlighting
+
+<h2>🧑🏻‍💻 Installation Steps:</h2>
+
+<p>1. Install Zsh with your OS package manager. For Debian based systems :</p>
+
+```
+sudo apt installl zsh -y
+```
+
+<p>2. Change your current shell to zsh</p>
+
+```
+chsh -s /bin/zsh $(whoami)
+```
+
+<p>3. Download and Install fzf from fzf github repo</p>
+
+<p>4. Install zoxide</p>
+
+```
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+```
