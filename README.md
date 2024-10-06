@@ -21,7 +21,7 @@ Here're some of the project's best features:
 <p>1. Install Zsh with your OS package manager. For Debian based systems :</p>
 
 ```
-sudo apt installl zsh -y
+sudo apt install zsh -y
 ```
 
 <p>2. Change your current shell to zsh</p>
@@ -30,10 +30,16 @@ sudo apt installl zsh -y
 chsh -s /bin/zsh $(whoami)
 ```
 
-<p>3. Download and Install fzf from fzf github repo</p>
+<p>3. Download and Install</p>
+
+```
+https://github.com/junegunn/fzf/releases/
+```
 
 <p>4. Install zoxide</p>
 
 ```
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 ```
+
+<p>5. Download and add .zshrc file to your home directory</p>
