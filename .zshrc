@@ -71,3 +71,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 #Golang Path
 export PATH=$PATH:/usr/local/go/bin
+
+# Minikube and Zsh completion
+source <(kubectl completion zsh)
+source <(minikube completion zsh)
