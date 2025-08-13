@@ -20,7 +20,12 @@ Here are some of the project’s best features:
 
 Follow these steps to set up your Zsh environment:
 
-1. **Install Zsh** using your OS package manager. For Debian-based systems:
+**For Arch** :
+   ```bash
+   yay -S zsh fzf pokego-bin zoxide && sudo chsh -s /bin/zsh $(whoami)
+   ```
+**For Debian-based systems:**
+1. **Install Zsh**:
    ```bash
    sudo apt install zsh -y
    ```
@@ -32,10 +37,14 @@ Follow these steps to set up your Zsh environment:
    ```bash
    https://github.com/junegunn/fzf/releases/
    ```
-4. **Install Zoxide:**
+4. **Download and Install Pokego**:
+   ```bash
+   https://github.com/rubiin/pokego/releases
+   ```
+5. **Install Zoxide:**
    ```bash
    curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
    ```
-5. **Download and add the .zshrc file** to your home directory.
+**Download and add both .zshrc and .zshenv file** to your home directory.
 
 For more details on keybindings, check out the [Zsh Navigation](zsh-navigation.md) guide.
